@@ -1,2 +1,2 @@
 'use strict'
-console.log("Hello QA Branch");
+console.log("Hello");
