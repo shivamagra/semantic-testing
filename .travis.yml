@@ -11,5 +11,10 @@ jobs:
   include:
     - stage: release
       node_js: lts/*
-      script:
-        - npm run semantic-release
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
+     # script:
+     #   - npm run semantic-release
