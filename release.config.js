@@ -4,7 +4,7 @@ module.exports = {
     'master',
     {
       name: 'develop',
-      prerelease: true,
+      prerelease: 'beta',
     },
   ],
   /**
