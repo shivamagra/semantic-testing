@@ -10,8 +10,6 @@ jobs:
   include:
     - stage: release
       script: yarn install
-      before_deploy:
-        - cd dist
       deploy:
         provider: npm
     
