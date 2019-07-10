@@ -7,8 +7,10 @@ module.exports = {
       prerelease: 'beta',
     },
     {
+      channel: 'alpha',
+      type: 'prerelease',
       name: 'testing',
-      prerelease: 'beta',
+      prerelease: 'alpha',
     }
   ],
   /**
