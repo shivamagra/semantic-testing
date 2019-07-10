@@ -7,9 +7,6 @@ before_install:
   - export NODE_OPTIONS=--max_old_space_size=4096
 script:
   - yarn install
-stages:
-  - name: release
-    if: branch =~ /^(master|develop)$/
 jobs:
   include:
     - stage: release
