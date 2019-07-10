@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'testing',
-      prerelease: 'beta',
+      prerelease: 'alpha',
     }
   ],
   /**
